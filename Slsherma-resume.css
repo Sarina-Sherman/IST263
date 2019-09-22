@@ -1,0 +1,42 @@
+body { 
+    font-family: "Optima", Sans Serif;
+     Color: Black;
+     Background-color: White;
+}
+h1 { 
+  font-size: 55px;
+  font-style: Bold;
+  Color: Gainsboro;
+  padding-top: 50px;
+  padding-right: 70px;
+  padding-bottom: 30px;
+  padding-left: 400px;
+  background-image: linear-gradient( Pink, White);
+  border-style: Dotted;
+}
+p1 {
+  padding-left: 300px;
+  padding-right: 70px;
+}
+h2 
+    {
+       font-size: 33 px;
+       font-style: Italic;
+       Color: Pink;
+    }
+
+ul {
+  list-style-type: circle;
+  font-size: 18 px;
+  color:black;
+}
+
+h3 {
+    Font-size: 20 px;
+    font-style: Bold;
+}
+
+Footer 
+{
+    padding-bottom: 100px;
+}
