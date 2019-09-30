@@ -24,18 +24,18 @@ ul {
             text-align: center;
         }
     ul li:nth-child(1) {
-            background-color: purple;
-            color: #fff; }
+            background-color: Light Grey;
+        ; }
     ul li:nth-child(2) {
-            background-color: pink;
-            color: #fff; }
+            background-color: White;
+            c; }
     ul li:nth-child(3) {
-            background-color: red;
-            color: #fff; }
+            background-color: Light grey;
+            ; }
                 
     ul li:nth-child(4) {
-            background-color:light grey;
-            color: #fff }
+            background-color:light White;
+         }
             
     ul li:nth-child(even) {
             width:700px;
