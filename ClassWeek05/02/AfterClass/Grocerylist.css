@@ -27,7 +27,7 @@ a:active {
     color: Pink;
 
 }
-table tr:nth-child(even) {
+table tr:nth-child(Odd) {
     background-color: #777;
     color: #fff; }
 
