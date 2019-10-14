@@ -1,57 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
+.site-header {
+        width: 100%;
+        height: 74px;
+        background-color: #000;
+        background-image: url(../images/Grafeez-Logo.jpg) no-repeat;
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>News Page</title>
 
-    <link rel="stylesheet" href="slsherma-news-pages.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-</head>
-<main>
-<body>
-    <div class="container">
-        <header>
-            <img src = "images/Grafeez-Logo.jpg" alt="Grafeez Logo" />
+Main {
 
-        </header>
-        <div class="row">
-           <aside>
-         <div class="container">
-                        <div class=".grid 2x2">
-                                <div class="images/politics.jpg">politics</div>
-                                <div class="images/travel.jpg">travel</div>
-                                <div class="images/business.jpg">business</div>
-                                <div class="images/food.jpg">food</div>
-                              </div>
-                <article>
-                    <img src="images/politics.jpg" alt="politics" />
+    flex: 1px;
+    width: 50px;
+}
 
-                    <h2>Politics</h2>
-                </article>
-               
-                 <article>
-                    <img src="images/travel.jpg" alt="travel" />
-                    <h2>Travel</h2>
-                </article>
-                
-                <article>
-                    <img src="images/business.jpg" alt="business" />
-                    <h2>Business</h2>
+Header {
+    size: 20px;
+}
 
-                    </article>
-                    
-                    <article>
-                    <img src="images/food.jpg" alt="food" />
-                    <h2>Food</h2>
-                    </article>
-                
-            </aside>
-            </div>
-            </main>
-        </div>
-    </div>
-</body>
-</html>
+img {
+    width: 200%;
+    height: auto;
+    border-color: #cccccc;
+}
+
+.row{
+
+    display: flex;
+
+}
+
+article{
+
+    flex: 1;
+    width: 50%;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: .5em;
+
+}
+
+main article{
+
+    width: 100%;
+
+}
+
+.col {
+    flex: 1;
+}
+
+img.responsive {
+    width: 500%;
+    height: auto;
+}
+aside{
+
+    flex: 1;
+    display: flex;
+    width: 50px;
+}
+
+.grid2x2 {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+  }
+  
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
