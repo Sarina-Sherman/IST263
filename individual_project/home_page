@@ -2,41 +2,40 @@
 <html lang="en">
 <head>
     <title> Home Page</title>
+    <link rel="stylesheet" href="styling_website_pages.css">
     </head>
     <body>
-            <img src="Full_Personal_Logo.jpg" alt="Personal Logo">
-              
-            <nav>
-                <ul>
+        <header>
+        <img src="images/Full_Personal_Logo.jpg" class="logoimg" alt="Personal Logo">
 
-                <li>
-                <a href="Future-Page.html"> Future of Fast Fashion and Sustainability </a>
-                 </li>
-             
-           <li>
-                     <a href="Past_and_Present.html">The Past and Present of Fast Fashion and Sustainability</a>
-            </li>
-            </ul>
-                 </nav>
-    
-               
+      
+        <nav class= "topnav">
+            <ul class="buttons">
+            <li>  <a class="active" href="home_page.html">Home Page</a> </li>
+            <li>  <a href="Past_and_Present.html">The Past and Present of Fast Fashion and Sustainability</a> </li>
+            <li> <a href="Future-page.html"> Future of Fast Fashion and Sustainability </a> </li>
+        </ul>
+             </nav>
+          
+
+        <div class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+    </header>   
+       
         <h1>Fast Fashion Vs. Sustainable Fashion</h1>
     <main>
         
        
 
 
-<img src= "images/Quote.jpg" alt="Image 1 of fast fashion"> 
+<img src= "images/Quote.jpg" class="quoteimg" alt="Image 1 of fast fashion"> 
 
-<img src= "images/Clothing_on_rack.JPG" alt="Image 2 of fast fashion">
 
-<img src= "images/Waste.jpg" alt="Image 3 of fast fashion">
-
-<img src= "images/Clothing.jpg" alt="Image 4 of fast fashion">
-
-<img src= "images/Teens.jpg" alt="Image 5 of fast fashion">
-
-<h3> About Me!</h3 >
+<h2> About Me!</h2 >
 
 <P> Growing up in the big city of Chicago with Michigan Avenue being the hub of fashion, I spent my days walking downtown looking at street style and reading magazines like 'picture books' as my mom called it,
     flipping through for the newest and best fashion. Since the start, I have been fascinated by brands' values and their strategic planning, so, of course, I am a public relations and retail management dual!
@@ -66,12 +65,36 @@
     persons or the general public as a result of unrestrained economic activities,” the social costs involved in the production of fast fashion include damages to the environment, human health, and human rights at each step along the production chain</p>
 
 
-      <iframe width="912" height="513" src="https://www.youtube.com/embed/tLfNUD0-8ts"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="912" height="513" src="https://www.youtube.com/embed/tLfNUD0-8ts" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+   <article class="articleimg">
 
+      <img  src= "images/Clothing_on_rack.JPG" class="imgbar" alt="Image 1 of fast fashion">
+      
+      <img src= "images/Clothing.jpg" class="imgbar" alt="Image 2 of fast fashion">
+      
+      <img src= "images/Teens.jpg" class="imgbar" alt="Image 3 of fast fashion">
 
+</article>
 
+      <h2>Contact Me!</h2>
 
+      <form action="/action_page.php">
+        First name:<br>
+        <input type="text" name="firstname">
+        <br>
+        Last name:<br>
+        <input type="text" name="lastname" >
+        <br><br>
+        Email:<br>
+        <input type="text" name="Email">
+        <br>
+        Message:<br>
+        <input type="text" name="Message">
+        <br><br>
+        <input type="submit" value="Submit">
+      </form> 
+      
     </main>
     </body>
     </html>
