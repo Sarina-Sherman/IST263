@@ -60,6 +60,11 @@ div.class{
    border-left: none;
    cursor: pointer;
    }
+  .search-container{
+     width: 50%;
+     color:pink;
+     font-family:'Antic Didone';
+   }
 
 
     input[type=text], select, textarea {
@@ -71,6 +76,7 @@ div.class{
         margin-top: 6px;
         margin-bottom: 16px;
         resize: vertical;
+        width: 60%;
 
       }
       
