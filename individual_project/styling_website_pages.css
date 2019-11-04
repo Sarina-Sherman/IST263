@@ -118,14 +118,7 @@ height:500px;
 .row{
     display:flex;
 }
-.col{
-display:flex;
-    flex:1;
-}
-.col-2{
- display: flex;
-    flex:2;
-}
+
 .col img{
 display: flex;
 
