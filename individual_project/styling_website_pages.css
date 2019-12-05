@@ -1,3 +1,4 @@
+
 h1{
     color: #555;
     font-style: italic;
@@ -41,6 +42,8 @@ p {
         color: #555;
         text-indent: 50px;
    }
+
+
 .topnav{
   width:100%;
   padding:1em;
@@ -53,14 +56,13 @@ div.class{
    float: left;
    width: 100%;
    padding: 10px;
-   background: #2196F3;
    color: white;
    font-size: 17px;
    border: 1px solid grey;
    border-left: none;
    cursor: pointer;
    }
-  .search-container{
+   .search-container{
      width: 50%;
      color:pink;
      font-family:'Antic Didone';
@@ -96,7 +98,7 @@ div.class{
       
       .container {
         border-radius: 5px;
-        background-color: gainsboro;
+        background-color: black;
         padding: 20px;
         
       }
@@ -105,10 +107,7 @@ div.class{
      display: inline-block;
 
    }
-   .articleimg{
-  width:130%;
 
-   }
 
    .quoteimg{
 width:100%;
@@ -121,42 +120,36 @@ height:500px;
     background-image: linear-gradient(yellow, white);
   }
 
-.row{
-    display:flex;
-}
-
-.col img{
-display: flex;
-
-width:100%;
-}
 
 .logoimg{
 
-    width: 25%;
+    width: 20%;
 }
  ul {
 list-style-type: circle;
 text-align: left;
 
 
-      }
 
+      }
+.links{
+ text-align: left;
+ padding: 150 px;
+}
  ul.buttons{
         list-style-type: none;
        
       }
       
  li a {
-display: block;
 color: lightpink;
-padding: 10px 16px;
+padding: 5px 15px;
  text-decoration: none;
       }
       
   
       li a:hover {
-        background-color: #555;
+        background-color: black;
         color: lightpink;
       }
       li a.active {
@@ -165,12 +158,11 @@ padding: 10px 16px;
       }
 
       ul.whatyoucando { 
-        color: lightpink;
+        color: red;
         font-style: italic;
         padding-bottom: 150px;
         border:none;
         font-size: 15 px;
-        text-align:left;
         list-style-type: circle;
       }
 
@@ -194,8 +186,10 @@ padding: 10px 16px;
         float: center;
         
       }
+     
       .future{
         text-align: left;
        
       }
+      
      
