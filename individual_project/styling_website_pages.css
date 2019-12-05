@@ -142,7 +142,7 @@ text-align: left;
       }
       
  li a {
-color: lightpink;
+color: black;
 padding: 5px 15px;
  text-decoration: none;
       }
@@ -153,8 +153,8 @@ padding: 5px 15px;
         color: black;
       }
       li a.active {
-        background-color:black;
-        color: lightpink;
+        background-color:light pink;
+        color: black;
       }
 
       ul.whatyoucando { 
