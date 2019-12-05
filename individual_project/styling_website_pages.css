@@ -1,4 +1,5 @@
 
+
 h1{
     color: #555;
     font-style: italic;
@@ -153,7 +154,7 @@ padding: 5px 15px;
         color: black;
       }
       li a.active {
-        background-color:black;
+        background-color:grey;
         color: rgb(133, 1, 91);
       }
 
@@ -182,13 +183,11 @@ padding: 5px 15px;
       
       }
 
-      .moneyimg{
-        float: center;
-        
-      }
+     
      
       .future{
         text-align: left;
        
       }
       
+     
