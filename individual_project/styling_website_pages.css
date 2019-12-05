@@ -154,7 +154,7 @@ padding: 5px 15px;
         color: black;
       }
       li a.active {
-        background-color:grey;
+        background-color:light grey;
         color: rgb(133, 1, 91);
       }
 
