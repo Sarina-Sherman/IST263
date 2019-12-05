@@ -1,3 +1,5 @@
+
+
 h1{
   color: #555;
   font-style: italic;
@@ -187,5 +189,8 @@ text-decoration: none;
       text-align: left;
      
     }
-    
-     
+    .readmore{
+
+      background-color: black;
+      color: white;
+    }
